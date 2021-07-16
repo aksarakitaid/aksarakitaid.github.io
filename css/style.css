@@ -1,4 +1,3 @@
-
 ion-icon {
     visibility: hidden
 }
@@ -11,11 +10,11 @@ ion-icon {
     background: url("img/bg-logo-jmi-dark.png") top left no-repeat !important;
  } */
 
- /* .bg-jmi-right {
+/* .bg-jmi-right {
      background: url("img/bg-logo-jmi-grey.png") top right no-repeat !important;
  } */
 
- /* .bg-dark-image {
+/* .bg-dark-image {
      background: url("img/bg-internhip.jpg") no-repeat center center fixed !important;
      background-size: cover;
      overflow: hidden;
@@ -33,7 +32,17 @@ body {
     max-width: 1020px;
 }
 
+.text-primary1 {
+    color: #012737;
+}
 
+.text-primary2 {
+    color: #fbb03b !important;
+}
+
+.bg-gold {
+    background-color: #fbb03b;
+}
 
 .navbar-light .navbar-toggler {
     color: #ffdf7d;
@@ -41,7 +50,7 @@ body {
 }
 
 .carousel-indicators li {
-    background-color: #336699  !important;
+    background-color: #336699 !important;
     width: 10px;
     height: 10px;
 }
