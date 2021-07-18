@@ -44,6 +44,19 @@ body {
     background-color: #fbb03b;
 }
 
+.bg-primary2 {
+    background-color: #fbb03b;
+}
+
+.bg-layer {
+    background-color: rgba(14, 14, 14, 0.582);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .navbar-light .navbar-toggler {
     color: #ffdf7d;
     border-color: #fbb03b;

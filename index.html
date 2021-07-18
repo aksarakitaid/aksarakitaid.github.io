@@ -48,22 +48,27 @@
                 <div class="navbar-collapse collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#technology">Beranda</a>
+                            <a class="nav-link" href="#beranda">Beranda</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#aboutus">Tentang</a>
+                            <a class="nav-link" href="#populer">Populer</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#portfolio">Tujuan</a>
+                            <a class="nav-link" href="#daerah">Daerah</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#client">Galeri</a>
+                            <a class="nav-link" href="#galeri">Galeri</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="internship.html">Kerjasama</a>
+                            <a class="nav-link" href="acara.html">
+                                <lord-icon src="https://cdn.lordicon.com/mdgrhyca.json" trigger="hover"
+                                    colors="primary:#fbb03b,secondary:#fbb03b" stroke="200"
+                                    style="width:15px;height:15px">
+                                </lord-icon> Acara
+                            </a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#contact">Kontak</a>
+                            <a class="nav-link" href="#kontak">Kontak</a>
                         </li>
                         <li class="nav-item px-2">
                             <a class="nav-link" href="#">
@@ -249,13 +254,15 @@
         </div>
     </section>
 
-    <div id="technology" class="py-2">
+    <div id="populer" class="py-2">
         &nbsp;
     </div>
     <section>
         <div class="container py-5">
             <h1 class="display-4 text-primary1 font-weight-bold mb-3">
-                Kebudayaan
+                <lord-icon src="https://cdn.lordicon.com/rcopausw.json" trigger="loop" stroke="70"
+                    colors="primary:#012737,secondary:#fbb03b" style="width:100px;height:100px">
+                </lord-icon> Populer
             </h1>
 
             <div class="row pt-5 justify-content-center">
@@ -314,7 +321,7 @@
         </div>
     </section>
 
-    <div id="aboutus" class="py-2">
+    <div id="quotes" class="py-2">
         &nbsp;
     </div>
 
@@ -336,27 +343,31 @@
         </div>
     </section>
 
-    <!-- <section class="my-5 bg-grey-calm">
-        <div class="container">
-            <div class="row py-4">
 
-                <div class="col-12 py-5 text-center">
-                    <ion-icon name="school-outline" size="large"></ion-icon>
-                    <h4>
-                        <i>"Memanfaatkan teknologi untuk masa depan pendidikan Bangsa"</i>
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-    <div id="portfolio" class="py-2">
+    <div id="daerah" class=" py-2">
         &nbsp;
     </div>
     <section>
         <div class="container py-5">
-            <h1 class="display-4 text-primary1 font-weight-bold mb-3">Rumah Adat</h1>
+            <div class="text-center">
+                <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop" stroke="120"
+                    colors="primary:#012737,secondary:#fbb03b" style="width:100px;height:100px">
+                </lord-icon>
+            </div>
+            <div id="main" class="input-group input-group-lg my-3 mb-5 row-fluid"><select class="custom-select col-4"
+                    style="border-radius:  50px 0 0 50px;">
+                    <option value="rpp" selected="selected">Semua Provinsi</option>
+                    <option value="artikel">Jawa Timur</option>
+                    <option value="aksi-gtk">Jawa Tengah</option>
+                    <option value="aksi">Jawa Barat</option>
+                </select> <input type="text" placeholder="Cari sesuatu yang ingin anda ketahui"
+                    class="form-control col-8">
+                <div class="input-group-append"><button type="submit" class="btn btn-warning"
+                        style="border-radius: 0 50px 50px 0;"><i class="mdi mdi-magnify"></i></button></div>
+            </div>
+            <h2 class="text-primary1 text-center font-weight-bold mb-1"><span class="text-warning">112</span> Daerah
+                Tersedia</h2>
+            <h5 class="text-center text-muted mb-4">Berikut adalah informasi kebudayaan yang tersedia </h5>
 
             <div class="row pt-5 justify-content-center">
                 <div class="col-sm-4 col-md-4 mb-3 p-3 pb-50">
@@ -411,60 +422,86 @@
                     <div class="card  p-4 h-100 card-br">
                         <img class="img-fluid mb-2 bg-card-top br" src="img/bg-daerah-4.jpg">
                         <h5 class="font-weight-bold"> Rumah Adat Jawa</h5>
-                        <p class="mb-3 text-muted"> Rumah adat asli Jawa/p>
+                        <p class="mb-3 text-muted"> Rumah adat asli Jawa</p>
 
-                            <h5 class="small"><i class="mdi mdi-calendar"></i> 2021</h5>
-                            <a href="https://siap-ppdb.com/" class="text-decoration-none" target="_blank">
-                                <h5 class="small text-red"><i class="mdi mdi-map-marker"></i> Jawa</h5>
-                            </a>
-                            <br>
-                            <button data-toggle="modal" data-target="#modal-ppdb"
-                                class="btn btn-outline-danger rounded-pill mt-auto">
-                                Selengkapnya </button>
+                        <h5 class="small"><i class="mdi mdi-calendar"></i> 2021</h5>
+                        <a href="https://siap-ppdb.com/" class="text-decoration-none" target="_blank">
+                            <h5 class="small text-red"><i class="mdi mdi-map-marker"></i> Jawa</h5>
+                        </a>
+                        <br>
+                        <button data-toggle="modal" data-target="#modal-ppdb"
+                            class="btn btn-outline-danger rounded-pill mt-auto">
+                            Selengkapnya </button>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-4 mb-3 p-3 pb-50">
                     <div class="card  p-4 h-100 card-br">
                         <img class="img-fluid mb-2 bg-card-top br" src="img/bg-daerah-5.jpg">
                         <h5 class="font-weight-bold"> Rumah Adat Jawa</h5>
-                        <p class="mb-3 text-muted"> Rumah adat asli Jawa/p>
+                        <p class="mb-3 text-muted"> Rumah adat asli Jawa</p>
 
-                            <h5 class="small"><i class="mdi mdi-calendar"></i> 2021</h5>
-                            <a href="https://siap-ppdb.com/" class="text-decoration-none" target="_blank">
-                                <h5 class="small text-red"><i class="mdi mdi-map-marker"></i> Jawa</h5>
-                            </a>
-                            <br>
-                            <button data-toggle="modal" data-target="#modal-ppdb"
-                                class="btn btn-outline-danger rounded-pill mt-auto">
-                                Selengkapnya </button>
+                        <h5 class="small"><i class="mdi mdi-calendar"></i> 2021</h5>
+                        <a href="https://siap-ppdb.com/" class="text-decoration-none" target="_blank">
+                            <h5 class="small text-red"><i class="mdi mdi-map-marker"></i> Jawa</h5>
+                        </a>
+                        <br>
+                        <button data-toggle="modal" data-target="#modal-ppdb"
+                            class="btn btn-outline-danger rounded-pill mt-auto">
+                            Selengkapnya </button>
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-4 mb-3 p-3 pb-50">
                     <div class="card  p-4 h-100 card-br">
                         <img class="img-fluid mb-2 bg-card-top br" src="img/bg-daerah-6.jpg">
                         <h5 class="font-weight-bold"> Rumah Adat Jawa</h5>
-                        <p class="mb-3 text-muted"> Rumah adat asli Jawa/p>
+                        <p class="mb-3 text-muted"> Rumah adat asli Jawa</p>
 
-                            <h5 class="small"><i class="mdi mdi-calendar"></i> 2021</h5>
-                            <a href="https://siap-ppdb.com/" class="text-decoration-none" target="_blank">
-                                <h5 class="small text-red"><i class="mdi mdi-map-marker"></i> Jawa</h5>
-                            </a>
-                            <br>
-                            <button data-toggle="modal" data-target="#modal-ppdb"
-                                class="btn btn-outline-danger rounded-pill mt-auto">
-                                Selengkapnya </button>
+                        <h5 class="small"><i class="mdi mdi-calendar"></i> 2021</h5>
+                        <a href="https://siap-ppdb.com/" class="text-decoration-none" target="_blank">
+                            <h5 class="small text-red"><i class="mdi mdi-map-marker"></i> Jawa</h5>
+                        </a>
+                        <br>
+                        <button data-toggle="modal" data-target="#modal-ppdb"
+                            class="btn btn-outline-danger rounded-pill mt-auto">
+                            Selengkapnya </button>
+                    </div>
+                </div>
+
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-light"><i class="mdi mdi-chevron-left"></i></button>
+                    </div>
+                    <div class="btn-group mx-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-warning">1</button>
+                        <button type="button" class="btn btn-light">2</button>
+                        <button type="button" class="btn btn-light">3</button>
+                        <button type="button" class="btn btn-light">4</button>
+                        <button type="button" class="btn btn-light">5</button>
+
+                    </div>
+                    <p>...</p>
+                    <div class="btn-group mr-2" role="group" aria-label="Second group">
+
+                        <button type="button" class="btn btn-light">34</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-light"><i class="mdi mdi-chevron-right"></i></button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div id="client" class="py-2">
+    <div id="galeri" class="py-2">
         &nbsp;
     </div>
     <section>
         <div class="container py-5">
-            <h1 class="display-4 text-primary1 font-weight-bold mb-3">Galeri</h1>
+            <h1 class="display-4 text-primary1 font-weight-bold mb-3">
+                <lord-icon src="https://cdn.lordicon.com/vixtkkbk.json" trigger="loop" stroke="70"
+                    colors="primary:#012737,secondary:#fbb03b" style="width:100px;height:100px">
+                </lord-icon> Galeri
+            </h1>
 
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-6 p-0">
@@ -542,12 +579,13 @@
         </div>
     </section>
 
-    <section id="contact" class="py-5 bg-dark text-white">
+    <section id="kontak" class="py-5 bg-dark text-white">
         <div class="container">
             <div class="row pt-5">
                 <div class="col-12 col-md-4">
                     <a href="index.html">
-                        <img class="img-fluid mb-2" width="200" src="img/logo-aksara-kita.png" alt="">
+                        <img class="img-fluid mb-2" width="200" style="filter:grayscale()"
+                            src="img/logo-aksara-kita.png" alt="">
                     </a>
 
                 </div>
